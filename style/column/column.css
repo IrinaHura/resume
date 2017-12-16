@@ -1,0 +1,142 @@
+.column {
+	margin: 3rem;
+	width: 30%;
+	height: auto;
+}
+
+.block_about {
+	margin-bottom: 7rem;
+}
+
+.block_about_title {
+	padding: 0.2rem;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	color: #f8f9fa;
+	border: 2px solid #193452;
+	background-color: #193452;
+	text-align: center;
+}
+
+.block_about_list {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	color: #193452;
+}
+
+.block_about_list_term,
+.block_about_list_description {
+	float: left;
+	padding: 0 0;
+	margin: 0.6rem 0;
+}
+
+.block_about_list_term {
+	font-weight: bold;
+	width: 10rem;
+	text-align: start;	
+}
+
+.block_about_list_description {
+	max-width: 14rem;
+	text-align: start;
+}
+
+.block_about_block {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 1rem 0;
+}
+
+.block_about_block_icon-f {
+	height: 3rem;	
+}
+
+.block_skills_title {
+	padding: 0.2rem;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	color: #f8f9fa;
+	border: 2px solid #193452;
+	background-color: #193452;
+	text-align: center;
+	width: 100%;
+}
+
+.block_skills_list {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	color: #193452;
+	margin: 1rem 0;
+}
+
+.block_skills_list_item,
+.block_skills_list_description {
+	width: 40%;
+	float: left;
+	margin: 0.6rem 0;
+}
+
+.block_skills_list_item {
+	font-weight: bold;
+}
+
+.block_skills_list_description {
+	font-weight: 100;
+	max-width: 12rem;
+}
+
+b {
+	font-weight: 900;
+	color: black;
+}
+
+@media screen and (max-width: 768px) {
+
+	.column {
+		margin: 0;
+		width: 100%;
+		height: auto;
+		padding: 0 2rem;
+	}
+
+	.block_about,
+	.block_skills {
+		margin-bottom: 2rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.block_about {
+		align-items: center
+	}
+
+	.block_about_title {
+		width: 100%;
+	}
+
+	.block_about_block {
+		height: 70px;
+		margin: 0.5rem 0;
+	}
+
+	.block_about_block_icon {
+		width: 40px;
+		height: 40px;
+		padding: 5px;
+	}
+
+	.block_skills_list {
+		margin: 0 10%;
+	}
+
+	.block_skills_list_description {
+		width: 50%;
+	}
+}

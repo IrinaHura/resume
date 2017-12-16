@@ -1,0 +1,51 @@
+.additional {
+    margin: 2rem;
+    width: 100%;
+}
+
+.additional_title {
+    padding: 0.2rem;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	color: #f8f9fa;
+	border: 2px solid #193452;
+	background-color: #193452;
+	text-align: center;
+}
+
+.additional_table {
+    font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	padding: 1.5rem;
+}
+
+.additional_table_list {
+    width: 20rem;
+    font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	color: #193452;
+    padding: 1rem;
+    font-weight: 900;
+}
+
+.additional_table_description {
+    font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	color: #193452;
+    margin: 1rem 0;
+    padding: 1rem;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .additional {
+        margin: 0;
+        padding: 0 2rem;
+    }
+    
+    .additional_table_list {
+        width: 10rem;
+    }
+}

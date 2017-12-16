@@ -1,0 +1,88 @@
+.basic {
+	width: 50%;
+	margin: 3rem;
+	margin-top: 6rem;
+}
+
+.basic_hillel {
+	height: 20rem;
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #193452;
+	border-top: 2px solid #193452;
+	color: #193452;
+	margin-bottom: 8.8rem;
+}
+
+.basic_hillel_text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	padding: 1.5rem;
+	color: #193452;
+}
+
+a {
+	text-decoration: none;
+	color: #193452;
+}
+
+a:hover {
+	color: #193452;
+	font-weight: 900;
+}
+
+.basic_hillel_photo_img {
+	height: 200px;
+	width: 150px;
+	border: 1px solid #193452;
+	box-shadow: 1px 1px 2px 2px #193452;
+}
+
+.basic_languages {
+	width: 100%;
+}
+
+.basic_languages_title {
+	padding: 0.2rem;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	color: #f8f9fa;
+	border: 2px solid #193452;
+	background-color: #193452;
+	text-align: center;
+}
+
+.basic_languages_item,
+.basic_languages_description {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	color: #193452;	
+	width: 12rem;
+	float: left;
+}
+
+.basic_languages_item {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+	.basic {
+		width: 100%;
+		margin: 0;
+		margin-top: 2rem;
+		padding: 0 2rem;
+	}
+
+	.basic_hillel {
+		height: auto;
+		margin-bottom: 2rem;
+	}
+	
+	.basic_hillel_photo_img {
+		height: 120px;
+		width: 100px;
+	}
+}
